@@ -6,10 +6,6 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-
   <BrowserRouter>
   <Switch>
     <Route path="/" component={App} exact />
